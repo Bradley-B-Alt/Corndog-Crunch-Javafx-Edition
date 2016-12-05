@@ -1,0 +1,8 @@
+.creature-div {
+	-fx-focus-color: transparent;
+	-fx-border-color: teal;
+	-fx-background-image: url("/resources/default.png");
+}
+.creature-div:hover {
+	-fx-border-color: black;
+}
