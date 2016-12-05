@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="557.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="corndog.Events">
+   <children>
+      <Button id="creature6" fx:id="creature6" layoutY="382.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature7" fx:id="creature7" layoutX="175.0" layoutY="382.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature8" fx:id="creature8" layoutX="350.0" layoutY="382.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature5" fx:id="creature5" layoutX="350.0" layoutY="207.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature4" fx:id="creature4" layoutX="175.0" layoutY="207.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature3" fx:id="creature3" layoutY="207.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature0" fx:id="creature0" layoutY="32.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature1" fx:id="creature1" layoutX="175.0" layoutY="32.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button id="creature2" fx:id="creature2" layoutX="350.0" layoutY="32.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
+      <Button layoutX="350.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" text="Scoreboard">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" text="Start Game">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="175.0" prefHeight="31.0" prefWidth="175.0" text="Time: 0" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
