@@ -21,12 +21,12 @@
             <Font name="Comic Sans MS" size="15.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" text="Start Game">
+      <Button id="startGame" fx:id="startGame" onAction="#startGame" mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" text="Start Game">
          <font>
             <Font name="Comic Sans MS" size="15.0" />
          </font>
       </Button>
-      <Label alignment="CENTER" layoutX="175.0" prefHeight="31.0" prefWidth="175.0" text="Time: 0" textAlignment="CENTER">
+      <Label id="timeDisplay" fx:id="timeDisplay" alignment="CENTER" layoutX="175.0" prefHeight="31.0" prefWidth="175.0" text="Time: 0" textAlignment="CENTER">
          <font>
             <Font name="Comic Sans MS" size="15.0" />
          </font>
