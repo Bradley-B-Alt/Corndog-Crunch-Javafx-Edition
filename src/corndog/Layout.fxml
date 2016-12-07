@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="557.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="corndog.Events">
+<AnchorPane prefHeight="557.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="corndog.Main">
    <children>
       <Button id="creature6" fx:id="creature6" layoutY="382.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
       <Button id="creature7" fx:id="creature7" layoutX="175.0" layoutY="382.0" mnemonicParsing="false" onAction="#creature" prefHeight="175.0" prefWidth="175.0" styleClass="creature-div" />
